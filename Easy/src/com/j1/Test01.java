@@ -1,13 +1,13 @@
+package com.j1;
+
 import java.util.Arrays;
 
 /**
  * @author: JCX
  * @date: 2021/9/27 - 09 - 27 - 17:48
  * <p>
- * 1. 两数之和
- * 1. 两数之和
- * 1. 两数之和
- */
+ * 简单 1. 两数之和
+ *  */
 public class Test01 {
 
     public static void main(String[] args) {
