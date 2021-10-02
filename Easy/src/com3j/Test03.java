@@ -1,9 +1,10 @@
 package com3j;
 
 /**
- * @author: JCX
- * @DATE: 2021/10/1 - 10 - 01 - 15:51
- * 9. 回文数
+ * @author JCX
+ * 时间: 2021/10/1 - 10 - 01 - 15:51
+ *
+ * 简单:9. 回文数
  *
  */
 public class Test03 {

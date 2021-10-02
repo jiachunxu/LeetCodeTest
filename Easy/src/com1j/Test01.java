@@ -3,11 +3,12 @@ package com1j;
 import java.util.Arrays;
 
 /**
- * @author: JCX
- * @date: 2021/9/27 - 09 - 27 - 17:48
- * <p>
- * 简单 1. 两数之和
- *  */
+ * @author JCX
+ *  2021/9/27 - 09 - 27 - 17:48
+ *
+ * 简单 : 1. 两数之和
+ *
+ */
 public class Test01 {
 
     public static void main(String[] args) {
