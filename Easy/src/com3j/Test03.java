@@ -1,4 +1,4 @@
-package com.j3;
+package com3j;
 
 /**
  * @author: JCX
