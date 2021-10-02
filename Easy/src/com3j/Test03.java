@@ -38,11 +38,7 @@ class Solution {
 
             }
             res = res * 10 + x;
-            if (dd==res){
-                return true;
-            }else {
-                return false;
-            }
+            return dd == res;
 
 
         }
