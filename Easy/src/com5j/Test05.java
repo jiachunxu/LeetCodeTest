@@ -13,7 +13,7 @@ public class Test05 {
         //["ab", "a"]
         //["flower","flower","flower","flower"]
         //["a","b"]
-        String[] strs = {"a","b"};
+        String[] strs = {"a"};
         Solution ss = new Solution();
         System.out.println(ss.longestCommonPrefix(strs));
 
@@ -27,9 +27,9 @@ class Solution {
         int zz = 0;
         boolean flg = false;
 
-        String tt = "";
+        String tt;
         if (strs.length == 1) {
-            return tt = strs[0];
+            tt = strs[0];
         } else {
             for (int i = 1; i < strs.length; i++) {
                 if (min > strs[i].length()) {
@@ -39,9 +39,8 @@ class Solution {
             }
             MMM:
             for (int i = 0; i < min; i++) {
-                for (int j = 0; j < strs.length; j++) {
-                    if (strs[0].charAt(i) == strs[j].charAt(i)) {
-                    } else {
+                for (String str : strs) {
+                    if (strs[0].charAt(i) != str.charAt(i)) {
                         flg = true;
                         dd = i;
                         break MMM;
@@ -52,22 +51,19 @@ class Solution {
             }
             if (!flg) {
                 tt = strs[zz];
-            }else {
-                if (dd == 0) {
-                    //错误
-//                    if (strs[zz].length() == 1) {
-//                        tt = strs[zz];
-//
-//                    } else {
-                        tt = "";
-//                    }
-
-                } else {
+            } else {
+                if (dd != 0) {
                     tt = strs[0].substring(0, dd);
+                } else {
+
+                    tt = "";
+
                 }
 
             }
-            return tt;
+
+
         }
+        return tt;
     }
 }
