@@ -7,7 +7,7 @@ package com0020j;
  * 简单: 20. 有效的括号
  * https://leetcode-cn.com/problems/valid-parentheses/
  */
-public class Test06 {
+public class Test20 {
     public static void main(String[] args) {
         //s = "()"
         //s = "()[]{}"
