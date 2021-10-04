@@ -1,4 +1,4 @@
-package com1j;
+package com01j;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 简单 : 1. 两数之和
  *  https://leetcode-cn.com/problems/two-sum/
  */
-public class Test01 {
+public class Test1 {
 
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
