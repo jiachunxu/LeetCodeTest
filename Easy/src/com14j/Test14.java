@@ -1,13 +1,13 @@
-package com5j;
+package com14j;
 
 /**
  * @author JCX
  * 时间: 2021/10/2 - 10 - 02 - 19:44
- * 包名: com5j
+ *
  * 简单:14. 最长公共前缀
  *  https://leetcode-cn.com/problems/longest-common-prefix/
  */
-public class Test05 {
+public class Test14 {
     public static void main(String[] args) {
         //strs = ["flower","flow","flight"]
         //["dog","racecar","car"]

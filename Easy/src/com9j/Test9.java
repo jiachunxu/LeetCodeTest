@@ -1,4 +1,4 @@
-package com3j;
+package com9j;
 
 /**
  * @author JCX
@@ -8,7 +8,7 @@ package com3j;
  *  https://leetcode-cn.com/problems/palindrome-number/
  *
  */
-public class Test03 {
+public class Test9 {
     public static void main(String[] args) {
 
         Solution ss = new Solution();

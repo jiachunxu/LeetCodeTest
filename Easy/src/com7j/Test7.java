@@ -1,4 +1,4 @@
-package com2j;
+package com7j;
 
 
 
@@ -9,7 +9,7 @@ package com2j;
  *  https://leetcode-cn.com/problems/reverse-integer/
  *
  */
-public class Test02 {
+public class Test7 {
     public static void main(String[] args) {
         int x = 1534236469;
 //        int x = 56446;
