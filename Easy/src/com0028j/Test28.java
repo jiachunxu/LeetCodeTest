@@ -51,7 +51,7 @@ class Solution {
         if (n == 0) {
             return 0;
         } else {
-            if (h == 0 || n > h) {//h == 0 || n > h   再次优化提升100ms
+            if (n > h) {//h == 0 || n > h   多余
                 return -1;
             }
             //----------------------------
