@@ -1,4 +1,4 @@
-package com20j;
+package com0020j;
 
 /**
  * @author JCX
