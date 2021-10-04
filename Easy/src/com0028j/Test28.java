@@ -27,22 +27,79 @@ class Solution {
 
 
         //(2)暴力匹配
-        int h = haystack.length(), n = needle.length();
-        for (int i = 0; i + n <= h; i++) {
-            boolean flag = true;
+//        int h = haystack.length(), n = needle.length();
+//        for (int i = 0; i + n <= h; i++) {
+//            boolean flag = true;
+//
+//            //遍历短字符串长度的次数
+//            for (int j = 0; j < n; j++) {
+//                if (haystack.charAt(i + j) != needle.charAt(j)) {
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//            if (flag) {
+//                return i;
+//            }
+//        }
+//        return -1;
+//
 
-            //遍历短字符串长度的次数
-            for (int j = 0; j < n; j++) {
-                if (haystack.charAt(i + j) != needle.charAt(j)) {
-                    flag = false;
-                    break;
+                //(3)暴力匹配优化
+        int h = haystack.length(), n = needle.length();
+
+        if (n == 0) {
+            return 0;
+        } else {
+            if (h == 0 || n > h) {
+                return -1;
+            }
+            //----------------------------
+            int count = 0;
+            for (int i = 0; i < h; i++) {
+                if (needle.charAt(0) == haystack.charAt(i) && (i + n <= h)) {
+                    count += 1;
                 }
             }
-            if (flag) {
-                return i;
+            int[] tong = new int[count];
+            int k = 0;
+            for (int i = 0; i < h; i++) {
+                if (needle.charAt(0) == haystack.charAt(i) && (i + n <= h)) {
+
+
+                    tong[k] = i;
+                    k++;
+
+                }
             }
+            //----------------
+
+            for (int value : tong) {
+                boolean flag = true;// 第二次匹配要初始化
+                //次数
+                for (int j = 0; j < n; j++) {
+
+                    if (haystack.charAt(value + j) != needle.charAt(j)) {
+                        flag = false;
+                        break;
+
+                    }
+
+
+                }
+                if (flag) {
+                    return value;
+                }
+
+            }
+
+
         }
+
+
         return -1;
+
+
 
 
 
