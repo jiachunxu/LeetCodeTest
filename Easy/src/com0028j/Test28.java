@@ -45,7 +45,7 @@ class Solution {
 //        return -1;
 //
 
-                //(3)暴力匹配优化
+                //(3)暴力匹配优化//提升12ms
         int h = haystack.length(), n = needle.length();
 
         if (n == 0) {
