@@ -78,27 +78,33 @@ class Solution {
 //
 //        return max;
 
-        //(2)思路:双层循环,第二层累加,从第一层索引累加到第二层索引值的和返回为max
-        int max = Integer.MIN_VALUE;
+        //解法(2)暴力,思路:双层循环,第二层累加,从第一层索引累加到第二层索引值的和返回为max,还是暴力解法
+//        int max = Integer.MIN_VALUE;
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            int temp = nums[i];
+//            for (int j = i; j < nums.length; j++) {
+//                if (i != j) {
+//                    temp += nums[j];
+//                }
+//                if (temp > max) {
+//                    max = temp;
+//                }
+//
+//
+//            }
+//        }
+//        //多余
+////        if (nums.length == 1) {
+////            max = nums[0];
+////        }
+//
+//        return max;
 
-        for (int i = 0; i < nums.length; i++) {
-            int temp = nums[i];
-            for (int j = i; j < nums.length; j++) {
-                if (i != j) {
-                    temp += nums[j];
-                }
-                if (temp > max) {
-                    max = temp;
-                }
 
 
-            }
-        }
-        if (nums.length == 1) {
-            max = nums[0];
-        }
+        //解法(3)
 
-        return max;
     }
 
 }
