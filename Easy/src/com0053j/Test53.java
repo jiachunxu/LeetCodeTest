@@ -105,6 +105,8 @@ class Solution {
 
         //解法(3)
 
+        int max = Integer.MIN_VALUE;
+        return max;
     }
 
 }
