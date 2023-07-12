@@ -1,4 +1,4 @@
-package com0035j;
+package Simple.top35;
 
 /**
  * @author JCX
