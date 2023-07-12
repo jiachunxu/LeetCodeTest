@@ -1,7 +1,10 @@
-package com0088;
+package Simple.top88;
 
 import java.util.Arrays;
 
+/**
+ * @author adminjia
+ */
 public class Test88 {
     public static void main(String[] args) {
 
@@ -22,7 +25,9 @@ public class Test88 {
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        if (n >= 0) System.arraycopy(nums2, 0, nums1, m + 0, n);
+        if (n >= 0) {
+            System.arraycopy(nums2, 0, nums1, m + 0, n);
+        }
         Arrays.sort(nums1);
 
     }
@@ -39,7 +44,7 @@ class Solution {
             return;
         }
 
-        while (p1 >= 0 || p2 >= 0)
+        while (p1 >= 0 || p2 >= 0) {
             if (nums2[p2] >= nums1[p1]) {
                 nums1[tail] = nums2[p2];
                 tail--;
@@ -54,6 +59,7 @@ class Solution {
                 p1--;
 
             }
+        }
 
         System.out.println(Arrays.toString(nums1));
     }
