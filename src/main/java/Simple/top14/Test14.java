@@ -1,9 +1,9 @@
-package com0014j;
+package Simple.top14;
 
 /**
  * @author JCX
  * 时间: 2021/10/2 - 10 - 02 - 19:44
- *
+ * <p>
  * 简单:14. 最长公共前缀
  *  https://leetcode-cn.com/problems/longest-common-prefix/
  */

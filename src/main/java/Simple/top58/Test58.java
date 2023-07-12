@@ -1,4 +1,4 @@
-package com0058j;
+package Simple.top58;
 
 /**
  * @author JCX

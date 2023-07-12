@@ -1,4 +1,4 @@
-package com0020j;
+package Simple.top20;
 
 import java.util.Stack;
 

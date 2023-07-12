@@ -1,11 +1,12 @@
-package com0009j;
+package Simple.top9;
 
 /**
  * @author JCX
  * 时间: 2021/10/1 - 10 - 01 - 15:51
- *
+ * <p>
  * 简单:9. 回文数
- *  https://leetcode-cn.com/problems/palindrome-number/
+ * <p>
+ * https://leetcode-cn.com/problems/palindrome-number/
  *
  */
 public class Test9 {

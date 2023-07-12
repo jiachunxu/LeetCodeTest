@@ -1,4 +1,4 @@
-package com0066j;
+package Simple.top66;
 
 import java.util.Arrays;
 

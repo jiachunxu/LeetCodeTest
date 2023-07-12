@@ -1,4 +1,4 @@
-package com0053j;
+package Simple.top53;
 
 /**
  * @author JCX
@@ -105,8 +105,7 @@ class Solution {
 
         //解法(3)
 
-        int max = Integer.MIN_VALUE;
-        return max;
+        return Integer.MIN_VALUE;
     }
 
 }

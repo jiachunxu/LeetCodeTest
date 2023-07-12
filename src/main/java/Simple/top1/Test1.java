@@ -1,4 +1,4 @@
-
+package Simple.top1;
 
 import java.util.Arrays;
 
@@ -7,6 +7,7 @@ import java.util.Arrays;
  * 时间: 2021/9/27 - 09 - 27 - 17:48
  * <p>
  * 简单 : 1. 两数之和
+ * <p>
  * https://leetcode-cn.com/problems/two-sum/
  */
 public class Test1 {

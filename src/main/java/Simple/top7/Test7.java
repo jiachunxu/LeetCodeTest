@@ -1,12 +1,13 @@
-package Simple;
+package Simple.top7;
 
 
 /**
  * @author JCX
  * 时间: 2021/10/1 - 10 - 01 - 15:42
+ * <p>
  * 简单 7. 整数反转
- *  https://leetcode-cn.com/problems/reverse-integer/
- *
+ * <p>
+ * https://leetcode-cn.com/problems/reverse-integer/
  */
 public class Test7 {
     public static void main(String[] args) {
