@@ -5,6 +5,9 @@ import java.util.Arrays;
 
 /**
  * @author adminjia
+ *
+ * 2544. 交替数字和
+ * https://leetcode.cn/problems/alternating-digit-sum/
  */
 public class Test2544 {
     public static void main(String[] args) {

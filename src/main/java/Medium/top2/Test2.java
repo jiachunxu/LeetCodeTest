@@ -1,5 +1,8 @@
-package Medium;
+package Medium.top2;
 
+/**
+ * @author adminjia
+ */
 public class Test2 {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(9);
