@@ -50,7 +50,8 @@ class Solution {
 
         return Arrays.stream(dp[x - 1])
                 .min()
-                .getAsInt();
+                .orElse(0);
+//                .getAsInt();
     }
 
 }
