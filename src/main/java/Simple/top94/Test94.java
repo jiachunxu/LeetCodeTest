@@ -36,7 +36,7 @@ class Solution {
         return integers;
     }
 
-    public void inorderTraversal2(TreeNode root, List<Integer> list) {
+    private void inorderTraversal2(TreeNode root, List<Integer> list) {
 
         if (root == null) {
             return;
