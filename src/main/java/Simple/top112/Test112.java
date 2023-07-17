@@ -3,9 +3,9 @@ package Simple.top112;
 /**
  * @author adminjia
  * <p>
- * 111. 二叉树的最小深度
+ * 112. 路径总和
  * <p>
- * https://leetcode.cn/problems/minimum-depth-of-binary-tree/
+ * https://leetcode.cn/problems/path-sum/
  */
 public class Test112 {
     public static void main(String[] args) {
